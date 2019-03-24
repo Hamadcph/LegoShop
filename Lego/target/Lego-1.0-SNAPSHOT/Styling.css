@@ -1,0 +1,86 @@
+
+body, html
+{
+    height: 100%;
+    margin: auto;
+}
+form {
+  background-color: tomato;
+  align-self: center;
+}
+
+html,body {
+  height:100%;
+  width:100%;
+ 
+}
+
+body {
+    background-color: blue;
+    
+}
+
+.mogens{
+    
+  color:aqua;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 3px solid #73AD21;
+  z-index: 0;
+}
+
+.master {
+ 
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+form {
+ 
+}
+font{
+    color: aqua;
+    
+}
+.topnav {
+  background-color: menu;
+  overflow: hidden;
+  z-index: 100;
+  position: relative;
+  z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  z-index: 100;
+  float: left;
+  display: block;
+  color: background;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: background;
+  font-size: 16px;
+  
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
